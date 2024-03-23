@@ -1,7 +1,9 @@
-# User Persona Identification
+# User Profile for LLM
 
 ## Overview
 This tool is designed to identify the persona of a user based on their conversations or statements. By analyzing the text, it extracts and identifies key aspects of a user's persona, such as age, gender, profession, hobbies, relationship status, and city.
+
+Key data points: age, gender, city, profession, relationship status, interests, contact info. 
 
 ## Installation
 
@@ -70,6 +72,22 @@ print(result)
 ```
 
 This will output the identified persona attributes based on the provided conversation snippets.
+
+
+## Room for Improvement: 
+
+Slow Changing Dimension
+Database Integration
+Future data points to be added from backend
+- User Engagement metrics
+    - Interactions
+    - Impression
+    - Clicks
+    - Purchases
+- GEO Location
+    - IP
+- Device Information
+- Price Sensitivity
 
 ## Note
 The accuracy of the persona identification depends on the quality and quantity of the conversation data provided. Ensure that the conversations are representative of the user's typical communication style for the best results.
